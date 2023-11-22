@@ -10,6 +10,7 @@
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
+    background-color: rgb(211, 211, 211);
   }
   
   /* Sections
@@ -70,6 +71,10 @@
    */
   a {
     background-color: transparent;
+    
+    
+    
+    
   }
   
   /**
