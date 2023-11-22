@@ -3,6 +3,7 @@ This is the repo I was working on https://github.com/akcodes29/Model-View-Contro
 However, Heroku was rejecting this repo, so after multiple attempts, including deleting and recreating new app in Heroku, uninstalling and reinstalling node and dependencies, I still continued to receive error messages and Heroku deployment failed. 
 I decided to try and move everything into a new repo, create a new app in Heroku, connect the new repo to the new app and it successfully deployed the first time.
 Therefore, that is why my commit history is wonky in this repo. Please excuse. 
+Still working on this project. Not completed.
 
 ## Acceptance Criteria
 
