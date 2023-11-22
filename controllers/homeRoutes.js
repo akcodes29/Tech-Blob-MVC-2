@@ -37,7 +37,7 @@ router.get('/', async (req, res) => {
 });
 
 
-router.get('/blog', async (req, res) => {
+router.get('/dashboard', async (req, res) => {
   try {
     const blogData = await Blog.findAll( {
       include: [
@@ -47,16 +47,19 @@ router.get('/blog', async (req, res) => {
         },
       ],
     });
-    const blog = blogData.map((blog) => blog.get({ plain: true }));
+    const blogs = blogData.map((blog) => blog.get({ plain: true }));
 
-    res.render('blog', {
-      // ...blog,
+    res.render('dashboard', {
+      blogs,
       logged_in: req.session.logged_in
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
+
+
+
 
 router.get('/blog/:id', async (req, res) => {
   try {
