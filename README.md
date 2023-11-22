@@ -43,3 +43,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ## Heroku Link 
 
 https://techblog2-mvc-448f7ad3a960.herokuapp.com/
+
+## Screenshot
+
+![Screenshot](MVC-ss-tech-blog.png)
